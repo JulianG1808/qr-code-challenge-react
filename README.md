@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Frontend Mentor - QR code component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desktop View
 
-### `npm test`
+![](./public/Screenshots/Screenshot%20Desktop%20QR.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mobile View
 
-### `npm run build`
+![](./public/Screenshots/Screenshot%20Mobile%20QR.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [View solution here](https://github.com/JulianG1808/QR-Code-Challenge)
+- Live Site URL: [View live site here](https://qr-code-challenge-neon.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML5
+- CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I learned a new method to center an element horizontally and vertically, this is the **transforms methods** and I used the *translate()* property
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Code:
 
-## Learn More
+```html
+<div class="cardQr">
+  <img src="./images/image-qr-code.png" alt="code qr"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <p class="titleCard">Improve your front-end skills by building projects<p/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <p class="subTitleCard">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+```
 
-### Code Splitting
+```css
+.cardQr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Useful resources
 
-### Analyzing the Bundle Size
+- [Transforms Methods in CSS](https://www.w3schools.com/css/css3_2dtransforms.asp) - This helped me to center an element on the page and also make it responsive to any resolution. I really liked this method and will use it in the future.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/JulianG1808)
+- [Portfolio](https://portfolio-julian.vercel.app/)
+- [LinkedIn](https://www.linkedin.com/in/leandrojuliangomez/)
+- [GitHub](https://github.com/JulianG1808)
