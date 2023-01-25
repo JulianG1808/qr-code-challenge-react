@@ -1,0 +1,54 @@
+body {
+  background: hsl(217, 77%, 74%);
+  overflow: hidden;
+  font-family: Outfit;
+}
+
+.cardQr {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  position: absolute;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardQr img {
+  width: 250px;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+}
+
+.cardQr p {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.titleCard {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subTitleCard {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.attribution { 
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution a { 
+    color: hsl(229, 90%, 51%); 
+}
