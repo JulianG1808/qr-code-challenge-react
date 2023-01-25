@@ -98,6 +98,7 @@ I learned a new method to center an element horizontally and vertically, this is
 ### Useful resources
 
 - [Transforms Methods in CSS](https://www.w3schools.com/css/css3_2dtransforms.asp) - This helped me to center an element on the page and also make it responsive to any resolution. I really liked this method and will use it in the future.
+- [Use SASS in React (Spanish Video)](https://www.youtube.com/watch?v=op6xKXMxTKI) - a basic video in spanish about SASS, in which I learned how to make a modularizated code about styles and customs the same
 
 ## Author
 
