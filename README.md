@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,38 +27,71 @@ Mobile View
 
 ### Links
 
-- Solution URL: [View solution here](https://github.com/JulianG1808/QR-Code-Challenge)
-- Live Site URL: [View live site here](https://qr-code-challenge-neon.vercel.app/)
+- Solution URL: [View solution here](https://github.com/JulianG1808/qr-code-challenge-react)
+- Live Site URL: [View live site here](https://qr-code-challenge-react.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - HTML5
-- CSS3
+- React.JS
+- SASS
 
 ### What I learned
 
-I learned a new method to center an element horizontally and vertically, this is the **transforms methods** and I used the *translate()* property
+I learned a new method to center an element horizontally and vertically, this is the **transforms methods** and I used the _translate()_ property
 
 #### Code:
 
 ```html
-<div class="cardQr">
-  <img src="./images/image-qr-code.png" alt="code qr"/>
+<div className="home_container">
+  <img src="./images/image-qr-code.png" alt="code qr not found" />
 
-  <p class="titleCard">Improve your front-end skills by building projects<p/>
+  <p className="titleCard">
+    Improve your front-end skills by building projects
+  </p>
 
-  <p class="subTitleCard">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <p className="descriptionCard">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the
+    next level
+  </p>
 </div>
 ```
 
-```css
-.cardQr {
+```scss
+.home_container {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); //this is what i learned
+
+  img {
+    width: 250px;
+    border-radius: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .titleCard {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .subTitleCard {
+    font-weight: lighter;
+    font-size: 15px;
+  }
 }
 ```
 
